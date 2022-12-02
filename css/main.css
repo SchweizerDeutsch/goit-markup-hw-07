@@ -238,9 +238,6 @@ ol {
 }
 
 .address-link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -263,9 +260,6 @@ ol {
 }
 
 .address-link_accent {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
   color: var(--white-color);
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -787,7 +781,9 @@ ol {
 }
 
 .address-list {
+  font-weight: 400;
   font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer {
