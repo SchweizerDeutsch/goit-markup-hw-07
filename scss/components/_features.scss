@@ -1,10 +1,10 @@
 .features-listwrapper {
   display: flex;
 }
-.list-features {
+.features-list {
   width: 270px;
 }
-.list-features:not(:last-child) {
+.features-list:not(:last-child) {
   margin-right: 30px;
 }
 .features-icon {
