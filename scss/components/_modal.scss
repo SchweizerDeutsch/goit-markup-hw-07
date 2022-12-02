@@ -29,7 +29,6 @@
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-tex-color);
   margin-bottom: 12px;
 }
@@ -70,6 +69,10 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 .textarea {
   resize: none;
@@ -77,10 +80,6 @@
   height: 120px;
   padding: 12px 15px;
   margin-top: 4px;
-}
-
-.modal-input:focus {
-  border-color: var(--accent-color);
 }
 
 .modal-input:focus + .modal-icon-input {
@@ -93,8 +92,6 @@
   justify-content: center;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-tex-color);
 
   margin-bottom: 30px;
